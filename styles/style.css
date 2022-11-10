@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300&family=Josefin+Sans:wght@400;500;600&display=swap');
+
+body {
+    font-family: 'Darker Grotesque';
+    color: white;
+    margin: 0;
+    background-color: #121521;
+}
+
+.container {
+    width: 1242px;
+    margin: auto;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-grid{
+
+    display: grid;
+}
+
+.flex-sb {
+    justify-content: space-between;
+}
+
+.flex-center {
+    justify-content: center;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+header {
+    height: 141px;
+    align-items: center;
+}
+
+header ul {
+    width: 710px;
+    list-style: none;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.content {
+    /* height: 1051px; */
+    align-items: center;
+}
+
+.content__left h1 {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+}
+
+.content__left {
+    margin-bottom: 100px;
+    width: 455px;
+}
+
+.button__gray {
+    width: 204px;
+    height: 59px;
+    background-color: #40467C;
+    border: 2px solid #FFFFFF;
+    margin-right: 30px;
+}
+
+.button__dark {
+    width: 176px;
+    height: 59px;
+    border: 2px solid #FFFFFF;
+}
+
+.buttons a{
+    color: white;
+    text-decoration: none;
+}
+
+.content__img {
+    margin-left: 75px;
+}
+
+.benefits__video {
+    position: relative;
+}
+
+.benefits__video a {
+    position: absolute;
+    top: 232px;
+    left: 274px;
+}
+
+.benefits-rigth {
+    background-color: #1B213A;
+}
+
+.benefits-rigth h2 {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 46px;
+    width: 427px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.benefits__text {
+    width: 273px;
+    margin-left: 30px;
+}
+
+.benefits__text h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 100%;
+}
+
+.benefits__text p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+}
+
+.benefits__text a {
+    text-decoration: none;
+    color: white;
+}
+
+.benefits {
+    height: 524px;
+    margin-top: 119px;
+}
+
+.benefits__text--text {
+    position: relative;
+    top: 30px;
+}
+
+.benefits-text {
+    position: relative;
+    bottom: 30px;
+}
